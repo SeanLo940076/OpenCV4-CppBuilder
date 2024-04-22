@@ -77,8 +77,10 @@ Use ```cmake-gui``` to check for any missing selections.
 pkg-config --modversion opencv4
 ```
 
+## References
 
-# Reference
-https://docs.opencv.org/4.7.0/d7/d9f/tutorial_linux_install.html
-https://learningsky.io/install-opencv-on-nvidia-jetson-agx-xavier/
-https://developer.nvidia.com/cuda-gpus#collapseOne
+- **OpenCV Installation Guide**: https://docs.opencv.org/4.7.0/d7/d9f/tutorial_linux_install.html
+
+- **Installing OpenCV on NVIDIA Jetson AGX Xavier**: https://learningsky.io/install-opencv-on-nvidia-jetson-agx-xavier/
+
+- **NVIDIA CUDA GPUs**: https://developer.nvidia.com/cuda-gpus#collapseOne
