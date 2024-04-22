@@ -3,7 +3,9 @@
 ## Introduction
 Repository offering a tutorial for installing OpenCV 4.7.0 from source in C++, including integration with CUDA and the opencv_contrib module.
 
-## Update and Install Packages
+## Installation Steps
+
+1. **Update and Install Packages**
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -16,18 +18,18 @@ sudo apt-get install libeigen3-dev
 sudo apt install cmake-gui
 ```
 
-## Additional Packages Installation
+1. **Additional Packages Installation**
 ```bash
 pip3 install onnx
 pip3 install openvino
 ```
-## Update Again
+2. **Update Again**
 ```bash
 sudo apt update
 sudo apt upgrade
 ```
 
-## Download and Extract OpenCV Source Code
+3. **Download and Extract OpenCV Source Code**
 Choose the directory and unzip the OpenCV source code: ex: Documents/
 ```bash
 cd Documents/
@@ -41,7 +43,7 @@ mv opencv_contrib-4.7.0 opencv_contrib
 mv opencv_contrib opencv470/
 ```
 
-## Configure and Build OpenCV
+4. **Configure and Build OpenCV**
 Check your GPU model for the appropriate ```CUDA_ARCH_BIN``` number and CPU threads for ```make -j16```:
 https://developer.nvidia.com/cuda-gpus#collapseOne
 ```bash
@@ -69,10 +71,10 @@ sudo make -j16
 sudo make install
 ```
 
-## Verify Configuration
+5. **Verify Configuration**
 Use ```cmake-gui``` to check for any missing selections.
 
-## Verify Installation
+6. **Verify Installation**
 ```bash
 pkg-config --modversion opencv4
 ```
