@@ -79,8 +79,8 @@ pkg-config --modversion opencv4
 
 ## References
 
-- **OpenCV Installation Guide**: https://docs.opencv.org/4.7.0/d7/d9f/tutorial_linux_install.html
+- **OpenCV Installation Guide**: [OpenCV Docs](https://docs.opencv.org/4.7.0/d7/d9f/tutorial_linux_install.html)
 
-- **Installing OpenCV on NVIDIA Jetson AGX Xavier**: https://learningsky.io/install-opencv-on-nvidia-jetson-agx-xavier/
+- **Installing OpenCV on NVIDIA Jetson AGX Xavier**: [learningsky Tutorial](https://learningsky.io/install-opencv-on-nvidia-jetson-agx-xavier/)
 
-- **NVIDIA CUDA GPUs**: https://developer.nvidia.com/cuda-gpus#collapseOne
+- **NVIDIA CUDA GPUs**: [GPU Compute Capability](https://developer.nvidia.com/cuda-gpus#collapseOne)
